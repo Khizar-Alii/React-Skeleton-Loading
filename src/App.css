@@ -1,0 +1,31 @@
+.App{
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+.card{
+  display: inline-block;
+  width: 360px;
+  height: 250px;
+  margin: 1rem;
+  flex: 0.5;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+}
+.card img{
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+.card h1{
+  margin: 1rem 0;
+}
+.card h2{
+  margin: 1rem 0;
+  font-size: 20px;
+}
